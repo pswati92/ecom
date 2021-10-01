@@ -1,7 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:untitled/constants.dart';
-import 'package:untitled/widgets/custome_button.dart';
 class LoginScreen extends StatefulWidget {
   const LoginScreen({Key? key}) : super(key: key);
 
@@ -22,8 +21,8 @@ class _LoginScreenState extends State<LoginScreen> {
               Container(
                 padding: EdgeInsets.only(top: 20.0),
                   child: Text('Welcome User \n Login Your Account',textAlign: TextAlign.center,style: Constants.boldHeading,)),
-              Text('TextField'),
-             CustomBtn(),
+              Text('TextField hai yo'),
+              Text('Create account'),
             ],
           ),
         ),
